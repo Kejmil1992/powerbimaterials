@@ -1,3 +1,4 @@
+// Counting percentage of Grand Total per Age Range choosen on visualization context 
 PercentageOfGrandTotal = 
 DIVIDE(
     [CountPerAgeRange],
