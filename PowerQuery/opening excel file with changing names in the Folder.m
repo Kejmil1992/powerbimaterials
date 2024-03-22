@@ -1,0 +1,6 @@
+  #"Filtered rows" = Table.SelectRows(Source, each Text.Contains([Name], "usys_df_python")),
+  #"Split column by delimiter" = Table.SplitColumn(#"Filtered rows", "Name", Splitter.SplitTextByDelimiter("_"), {"Name.1", "Name.2", "Name.3", "Name.4"}),
+  #"Merged columns" = Table.CombineColumns(#"Split column by delimiter", {"Name.1", "Name.2", "Name.3"}, Combiner.CombineTextByDelimiter("_", QuoteStyle.None), "Merged"),
+  #"Removed columns" = Table.RemoveColumns(#"Merged columns", {"Name.4"}),
+  #"Renamed columns" = Table.RenameColumns(#"Removed columns", {{"Merged", "Name"}}),
+  Navigation = #"Renamed columns"{0}[Content],
