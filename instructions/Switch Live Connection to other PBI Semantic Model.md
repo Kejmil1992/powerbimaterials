@@ -6,6 +6,7 @@ Desirable Semantic Model: Semantic Model Dev
 
 Information about the used semantic model is at the bottom of the Report:
 
+![image](https://github.com/user-attachments/assets/8d611c70-d24f-439d-be9e-9b81e4738ab8)
 
 
 Go to Transform Data, Data source Settings:
