@@ -1,2 +1,2 @@
 // Sharepoint name address
-"https://fortum.sharepoint.com/sites/CCMB2Breportingdevelopment" meta [IsParameterQuery = true, IsParameterQueryRequired = true, Type = type text]
+"https://sharepoint.com/sites/SharePointName" meta [IsParameterQuery = true, IsParameterQueryRequired = true, Type = type text]
