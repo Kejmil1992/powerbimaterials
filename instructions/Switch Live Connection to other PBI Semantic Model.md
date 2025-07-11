@@ -18,9 +18,9 @@ Go to Transform Data, Data source Settings:
 
  then we can switch to the one we need:
 
-![image-2024-9-26_15-41-37](https://github.com/user-attachments/assets/fd54bbac-101c-48fd-89d5-12ea833e88ff)
+
 
 
 Information about used Semantic Model changed:
 
-![image](https://github.com/user-attachments/assets/e5d35dbe-3380-4350-bdca-56b8a6bfb95d)
+
