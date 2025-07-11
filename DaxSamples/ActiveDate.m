@@ -2,6 +2,6 @@ ActiveDate =
 IF
 (
 ISEMPTY(
-    RELATEDTABLE('Power BI Audit Information')
+    RELATEDTABLE('Table Name')
     ),
     1,0)
